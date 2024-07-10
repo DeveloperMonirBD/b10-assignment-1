@@ -8,7 +8,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-/* Shered style */
+/* Shared style */
 .btn-primary {
     border: 1px solid rgb(13, 19, 33);
     cursor: pointer;
@@ -29,7 +29,7 @@ body {
 }
 
 .header-container {
-    width: 1440px;
+    max-width: 1440px;
     height: 131px;
     margin: 0 auto;
 }
@@ -54,7 +54,7 @@ body {
 
 /* banner section style starts here */
 .banner-container {
-    width: 1440px;
+    max-width: 1440px;
     height: 652px;
     background-image: url('/assets/Hero-bg.png');
     border: 2px dashed #ddd;
@@ -73,7 +73,7 @@ body {
     height: 240px;
 }
 .banner-text-content {
-    width: 998px;
+    max-width: 998px;
     height: 136px;
 }
 .banner-text-content h1 {
@@ -96,7 +96,7 @@ body {
 
 /* development section style starts here */
 .development-section-container {
-    width: 1140px;
+    max-width: 1140px;
     height: 1393px;
     margin: 0 auto;
     margin-top: 74px;
@@ -104,13 +104,13 @@ body {
     background: rgba(13, 19, 33, 0.02);
 }
 .development-section-cnontent {
-    width: 946px;
+    max-width: 946px;
     height: 1233px;
     margin: 0 auto;
     padding-top: 80px;
 }
 .development-title {
-    width: 852px;
+    max-width: 852px;
     height: 113px;
     margin: 0 auto;
     display: flex;
@@ -135,7 +135,7 @@ body {
 
 /* Seceond & Four development Section same style starts */
 .development-second-section {
-    width: 946px;
+    max-width: 946px;
     height: 336px;
     padding-top: 48px;
     margin-top: 48px;
@@ -171,7 +171,7 @@ body {
 
 /* Third development section style starts */
 .development-third-section {
-    width: 946px;
+    max-width: 946px;
     height: 336px;
     padding-top: 48px;
     margin-top: 48px;
@@ -209,7 +209,7 @@ body {
 
 /* Inspiration section style starts here */
 .insperation-section-container {
-    width: 1140px;
+    max-width: 1140px;
     height: 775px;
     margin: 0 auto;
     margin-top: 88px;
@@ -220,7 +220,7 @@ body {
     text-align: center;
 }
 .inspiration-title {
-    width: 852px;
+    max-width: 852px;
     height: 113px;
 }
 .inspiration-title h1 {
@@ -235,17 +235,25 @@ body {
     margin-bottom: 48px;
     opacity: 0.7;
 }
-.inspiration-video {
-    width: 1076px;
-    height: 550px;
-    padding: 32px;
+.inspiration-video-section {
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 614px;
     border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+#inspiration-video {
+    width: 100%;
+    height: 100%;
     border-radius: 16px;
 }
 
 /* What i do section */
 .skills-section-container {
-    width: 1140px;
+   max-width: 1140px;
     height: 460px;
     margin: 0 auto;
     margin-top: 163px;
@@ -299,7 +307,7 @@ body {
 
 /* Current Target section style starts here */
 .current-target-container {
-    width: 1140px;
+    max-width: 1140px;
     height: 868px;
     margin: 0 auto;
     margin-top: 111px;
@@ -371,10 +379,11 @@ body {
 
 /* subscribe Newsletter section style start */
 .support-container {
-    width: 1140px;
+   max-width: 1140px;
     height: 313px;
     margin: 0 auto;
     margin-top: 120px;
+    margin-bottom: 80px;
     padding-top: 40px;
     text-align: center;
     display: flex;
@@ -396,7 +405,7 @@ body {
     margin-bottom: 20px;
 }
 .support-text-content p {
-    width: 750px;
+    max-width: 750px;
     justify-content: center;
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -439,4 +448,30 @@ body {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+}
+
+/* Footer style section starts here */
+.footer-container-section {
+    max-width: 1440px;
+    height: 100px;
+    padding: 32px 150px 32px 150px;
+    background: rgba(13, 19, 33, 0.03);
+    margin: 0 auto;
+}
+.footer-content-section {
+    max-width: 1140px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer-container-section h3 {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
