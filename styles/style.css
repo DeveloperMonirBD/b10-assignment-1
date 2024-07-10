@@ -130,6 +130,7 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     line-height: 26px;
+    opacity: 0.7;
 }
 
 /* Seceond & Four development Section same style starts */
@@ -165,6 +166,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 32px;
+    opacity: 0.7;
 }
 
 /* Third development section style starts */
@@ -199,6 +201,7 @@ body {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 32px;
+    opacity: 0.7;
 }
 .development-third-image {
     margin-right: 32px;
@@ -230,6 +233,7 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     margin-bottom: 48px;
+    opacity: 0.7;
 }
 .inspiration-video {
     width: 1076px;
@@ -260,6 +264,7 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     margin-bottom: 48px;
+    opacity: 0.7;
 }
 .skills-container {
     display: flex;
@@ -290,4 +295,76 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     line-height: 26px;
+}
+
+/* Current Target section style starts here */
+.current-target-container {
+    width: 1140px;
+    height: 868px;
+    margin: 0 auto;
+    margin-top: 111px;
+}
+
+.current-target-section {
+    padding: 0px 150px;
+    text-align: center;
+}
+.current-target-section h3 {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.current-target-section p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    margin-bottom: 48px;
+    opacity: 0.7;
+}
+
+.next-target-section {
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.next-target-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.next-target-title {
+    padding: 0px 130px 0px 0px;
+}
+.next-target-image {
+    margin-left: 32px;
+}
+
+.next-target-text h3 {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.next-target-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+}
+.learn-more {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+.next-target-image {
+    margin-right: 72px;
+    width: 108px;
+    height: 108px;
 }
